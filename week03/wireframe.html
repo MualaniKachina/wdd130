@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>QuickBites</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <img src="img.png" alt="Ordering Site Logo" />
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Menu</a>
+      <a href="#">Order</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Welcome to QuickBites!</h1>
+      <p>Order your favorite snacks and meals quickly and easily.</p>
+    </section>
+
+    <section>
+      <h2>Order Form</h2>
+      <form>
+        <label for="item">Select Item:</label>
+        <select id="item" name="item">
+          <option>Pizza</option>
+          <option>Burger</option>
+          <option>Salad</option>
+          <option>Soda</option>
+        </select>
+        <br /><br />
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" value="1" />
+        <br /><br />
+
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" />
+        <br /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+        <br /><br />
+
+        <button type="submit">Place Order</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 QuickBites Ordering Site</p>
+  </footer>
+
+</body>
+</html>
