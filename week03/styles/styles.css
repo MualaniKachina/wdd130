@@ -21,7 +21,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #006994; /* primary color */
+  background-color: #940000; /* primary color */
   color: white;
   padding: 10px 20px;
 }
@@ -72,7 +72,7 @@ select {
 
 button {
   margin-top: 15px;
-  background-color: #008fc7; /* secondary color */
+  background-color: #ec7d06; /* secondary color */
   color: white;
   border: none;
   padding: 10px 20px;
@@ -82,7 +82,7 @@ button {
 }
 
 button:hover {
-  background-color: #005f8f;
+  background-color: #8f0000;
 }
 
 /* Footer */
