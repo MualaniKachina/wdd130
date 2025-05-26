@@ -22,7 +22,7 @@ header {
   align-items: center;
   justify-content: space-between;
   background-color: #940000; /* primary color */
-  color: white;
+  color: #ffffff;
   padding: 10px 20px;
 }
 
@@ -31,7 +31,7 @@ header img {
 }
 
 nav a {
-  color: white;
+  color: #ffffff;
   margin-left: 15px;
   text-decoration: none;
   font-weight: bold;
@@ -43,7 +43,7 @@ nav a:hover {
 
 /* Main content */
 main {
-  background-color: white;
+  background-color: #ffffff;
   padding: 20px;
   margin-top: 20px;
   border-radius: 8px;
@@ -73,7 +73,7 @@ select {
 button {
   margin-top: 15px;
   background-color: #ec7d06; /* secondary color */
-  color: white;
+  color: #ffffff;
   border: none;
   padding: 10px 20px;
   font-size: 1rem;
