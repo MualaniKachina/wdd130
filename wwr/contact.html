@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+ <meta charset="UTF-8">
   <meta name="description" content="Socials">
   <meta name="author" content="Edward">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contacts - White Water Rafting</title>
-  <link rel="stylesheet" href="styles/styles.css" />
+  <link rel="stylesheet" href="styles/rafting.css" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Oswald&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed" />
@@ -25,6 +25,7 @@
   </header>
 
   <main>
+    <h1>Contact us</h1>
     <section class="contact-info">
     <div class="left-info">
       <p>Dubai</p>
@@ -54,21 +55,27 @@
   </section>
 
   <section class="contact-form">
-    <div class="form-box">
-      <input type="text" placeholder="Name">
-      <input type="email" placeholder="Email">
+    <form class="form-box">
+      <label id="name">Name</label>
+      <input id="nameinput"type="text" placeholder="Name">
+      <label id="email">Email</label>
+      <input id="emailtype" type="email" placeholder="Email">
 
-      <label>Purpose of message</label>
-      <label><input type="radio" name="purpose"> General inquiry</label>
-      <label><input type="radio" name="purpose"> Reservation question</label>
-      <label><input type="radio" name="purpose"> Website suggestion</label>
 
-      <textarea rows="5" placeholder="Message"></textarea>
 
-      <label><input type="checkbox"> Please subscribe for the monthly newsletter</label>
+      
 
-      <button type="submit">Confirm</button>
-    </div>
+      <label id="testwow">Purpose of message</label>
+      <label id="radiotype"><input id="radiowow" type="radio" name="purpose"> General inquiry</label>
+      <label id="radiotype2"><input id="radiowow1" type="radio" name="purpose"> Reservation question</label>
+      <label id="radiotype3"><input id="radiowow2" type="radio" name="purpose"> Website suggestion</label>
+
+      <textarea id="rowstype" rows="5" placeholder="Message"></textarea>
+
+      <label id="checkboxwow"><input id="boxcheck" type="checkbox"> Please subscribe for the monthly newsletter</label>
+
+      <button id="buttonwow" type="submit">submit</button>
+    </form>
   </section>
   </main>
 
